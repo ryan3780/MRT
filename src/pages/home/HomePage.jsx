@@ -4,13 +4,14 @@ import React from 'react'
 
 import styled from 'styled-components'
 import { css } from 'emotion'
+import hotelImg from './hotelImg.jpg'
 
 export default function HomePage() {
   return (
     <Styled className="HomePage">
       <div
         className={css`
-          background-image: url('https://grepp-programmers-challenges.s3.ap-northeast-2.amazonaws.com/2020-myrealtrip/image/hotel_8-min.jpg');
+          background-image: url(${hotelImg});
           background-size: cover;
           filter: blur(5px);
           position: absolute;

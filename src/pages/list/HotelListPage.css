@@ -1,0 +1,73 @@
+body {
+    background-color: #eee;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 40%;
+    float: left;
+}
+
+.hotelName{
+    margin-bottom: 100px;
+}
+
+
+* {box-sizing: border-box;}
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* .wrapper > div {
+  border: 2px solid rgb(233,171,88);
+  border-radius: 5px;
+  background-color: rgba(233,171,88,.5);
+  padding: 1em;
+  color: #d9480f;
+} */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two { 
+  grid-column: 2 / 4;
+  grid-row: 1 ;
+  margin-left: 100px;
+}
+.three {
+  margin-top: 10px;
+  grid-column: 1;
+  grid-row: 2 / 10;
+  height: 800px;
+  background-color: #ffffff;
+  padding: 2em
+}
+.four {
+background-color: #ffffff;
+  margin-top: 10px;
+  grid-column: 2 / 4;
+  grid-row: 2;
+  margin-left: 100px;
+  height: 80px;
+}
+.five {
+  grid-column: 2 / 4;
+  grid-row: 3 / 10;
+  margin-left: 100px;
+  /* background-color: #ffffff; */
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}
