@@ -143,4 +143,3 @@ base_url: https://x0ofq07ykl.execute-api.ap-northeast-2.amazonaws.com/dev
 * [❗️필수] 최근에 본 호텔 목록을 보여주는 컴포넌트입니다. 호텔 목록 클릭 시 추가 됩니다.  
 * [❗️필수] 5개까지 추가되며, 5개가 넘어갈 경우 가장 오래전에 추가된 요소를 삭제합니다.  
 (끝)  
-닫기  
